@@ -1,6 +1,6 @@
 {
   "name": "node-github-webhook-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GitHub Webhooks API Developer Kit for Node.js",
   "main": "dist/index.js",
   "repository": "git@github.com:ryokohbato/node-github-webhook-sdk.git",
