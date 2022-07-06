@@ -14,7 +14,7 @@
   "scripts": {
     "build": "webpack",
     "build:production": "NODE_ENV=\"production\" webpack",
-    "prepublishOnly": "npm run build:production",
+    "prepublishOnly": "cp README.md dist/ && npm run build:production",
     "lint": "eslint --fix && prettier --write --cache 'src/*.ts'"
   },
   "devDependencies": {
